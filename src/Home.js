@@ -6,59 +6,55 @@ function Home() {
   return (
     <div className="home">
       <div className="home-container">
-        <img
-          className="home-image"
-          src={"images/nathan-oakley-gj1dnc7yRG0-unsplash.jpg"}
-          alt=""
-        />
+        <img className="home-image" src={"images/banner.jpg"} alt="" />
         <div className="home-row">
           <Product
-            title="Sofa Couch"
-            price={5000}
-            image={"images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg"}
-            rating={3}
+            title="Sofa (Green)"
+            price={15000}
+            image={"images/green-sofa.jpg"}
+            rating={4}
           />
           <Product
-            title="Sofa Couch"
-            price={5000}
-            image={"images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg"}
+            title="Sofa (White)"
+            price={17499}
+            image={"images/white-sofa.jpg"}
             rating={4}
           />
         </div>
 
         <div className="home-row">
           <Product
-            title="Sofa Couch"
+            title="Chair (White)"
             price={5000}
-            image={"images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg"}
+            image={"images/white-chair.jpg"}
             rating={2}
           />
           <Product
-            title="Sofa Couch"
-            price={5000}
-            image={"images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg"}
-            rating={5}
+            title="Chair (Black)"
+            price={6000}
+            image={"images/black-chair.jpg"}
+            rating={3}
           />
           <Product
-            title="Sofa Couch"
-            price={5000}
-            image={"images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg"}
-            rating={1}
+            title="Sofa (White)"
+            price={19000}
+            image={"images/half-sofa.jpg"}
+            rating={5}
           />
         </div>
 
         <div className="home-row">
           <Product
-            title="Sofa Couch"
-            price={5000}
-            image={"images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg"}
-            rating={3}
+            title="Table (Maple)"
+            price={9000}
+            image={"images/wall-table.jpg"}
+            rating={4}
           />
           <Product
-            title="Sofa Couch"
-            price={5000}
-            image={"images/phillip-goldsberry-fZuleEfeA1Q-unsplash.jpg"}
-            rating={4}
+            title="Sofa (Gray)"
+            price={14000}
+            image={"images/grey-sofa.jpg"}
+            rating={3}
           />
         </div>
       </div>

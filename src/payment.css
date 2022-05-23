@@ -4,7 +4,7 @@
 
 .payment-container > h1 {
     text-align: center;
-    padding: 10px;
+    padding: 10px;  
     font-weight: 400;
     background-color: white;
     border-bottom: 1px solid lightgray;
@@ -21,7 +21,7 @@
     flex: 0.2;
 }
 
-.payment-address {
+.payment-address, .payment-items, .payment-details {
     flex: 0.8;
 }
 
